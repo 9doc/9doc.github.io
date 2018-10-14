@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/darkneat.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -230,20 +230,20 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-#services .portfolio-item {
+#contents .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-#services .portfolio-item .portfolio-link {
+#contents .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 400px;
+  max-width: 256px;
   margin: 0 auto;
   cursor: pointer;
 }
 
-#services .portfolio-item .portfolio-link .portfolio-hover {
+#contents .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -253,11 +253,11 @@ header.masthead .intro-text .intro-heading {
   background: rgba(254, 209, 54, 0.9);
 }
 
-#services .portfolio-item .portfolio-link .portfolio-hover:hover {
+#contents .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#contents .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -268,16 +268,16 @@ header.masthead .intro-text .intro-heading {
   color: white;
 }
 
-#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#contents .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#contents .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#contents .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-#services .portfolio-item .portfolio-caption {
+#contents .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
@@ -285,19 +285,19 @@ header.masthead .intro-text .intro-heading {
   background-color: #fff;
 }
 
-#services .portfolio-item .portfolio-caption h4 {
+#contents .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#services .portfolio-item .portfolio-caption p {
+#contents .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-#services * {
+#contents * {
   z-index: 2;
 }
 
@@ -692,5 +692,6 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
-  
+
+
 }
